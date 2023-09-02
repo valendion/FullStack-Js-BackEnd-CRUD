@@ -19,10 +19,8 @@ This software uses the following open source packages:
 ## Note Endpoint
 
 #### GET/notes (getAllNotes)
-- URL PARAMS
-    None
-- Data PARAMS
-    None
+- URL PARAMS = None
+- Data PARAMS = None
 ```
 [
     {
@@ -35,10 +33,8 @@ This software uses the following open source packages:
 ]
 ```
 #### GET/notes/:id (getNoteById)
-- URL PARAMS
-    _id
-- Data PARAMS
-    None
+- URL PARAMS = _id
+- Data PARAMS = None
 ```
 {
     "_id": "64eafbfff7b369c6187ea583",
@@ -49,10 +45,8 @@ This software uses the following open source packages:
 }
 ```
 #### POST/notes (postNote)
-- URL PARAMS
-    None
-- Data PARAMS
-    date, title and description
+- URL PARAMS = None
+- Data PARAMS = date, title and description
 ```
 {
     "date": "2023-09-29T00:00:00.000Z",
@@ -63,10 +57,8 @@ This software uses the following open source packages:
 }
 ```
 #### PATCH/notes (updateNoteById)
-- URL PARAMS
-    _id
-- Data PARAMS
-    date, title and description
+- URL PARAMS = _id
+- Data PARAMS = date, title and description
 ```
 {
     "acknowledged": true,
@@ -78,10 +70,8 @@ This software uses the following open source packages:
 ```
 
 #### DELETE/notes (deleteById)
-- URL PARAMS
-    _id
-- Data PARAMS
-    None
+- URL PARAMS = _id
+- Data PARAMS = None
 ```
 {
     "acknowledged": true,
